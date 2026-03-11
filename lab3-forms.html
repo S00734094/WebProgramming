@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Order Form</title>
+</head>
+<body>
+     <h1>New customer coffee order!</h1>
+    <h2>Fill out the form below and click "order now" to order</h2>
+   
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+         Name: <input type="text" name="name"> <br>
+         Email: <input type="email" name="email"> <br>
+
+         <p>
+            choose your coffee:
+            <select name="coffee">
+                <option value="Latte">Latte</option>
+                <option value="Cappuccino">Cappuccino</option>
+                <option value="Americano">Americano</option>
+                <option value="espresso">Espresso</option>
+            </select>
+         </p>
+         <p> Select your size: <br>
+             <input type="radio" name="size" value="small">Small <br>
+             <input type="radio" name="size" value="medium">Medium <br>
+             <input type="radio" name="size" value="large">Large <br>
+
+              <p> Extras:<br>
+            <input type="checkbox" name="extra" value="whipped cream">Whipped Cream <br>
+            <input type="checkbox" name="extra" value="extra shot">Extra Shot <br>
+            <input type="checkbox" name="extra" value="soy milk">Soy Milk <br>
+            <input type="checkbox" name="extra" value="almond milk">Almond Milk <br>
+
+            <p> Customer Comments:<br>
+    <textarea name="comments" rows="4" cols="50"></textarea>
+    </p>
+
+     <p>
+        <input type="submit" value="order now">
+    </p> 
+
+         </p>
+    </form>
+
+</body>
+</html>
