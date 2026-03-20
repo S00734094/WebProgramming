@@ -1,0 +1,36 @@
+body {
+  background-color: powderblue;
+  font-family: Arial, sans-serif;/* adding my text*/
+}
+h1 {
+  color: blue;
+  text-align: center ;
+}
+p {
+  color: red;
+
+  padding: 10px; /* Adds 10px of padding */
+}
+li::marker
+{
+  color:green;
+}
+
+li{
+  color:black;
+}
+a
+{
+  color:blue;
+  text-decoration: underline;
+}
+a:hover
+{
+  text-decoration: none;
+}
+.styled-box{
+   border: 2px solid black;    /* Solid border */
+  background-color: lightgray; /* Light gray background */
+  padding: 15px;               /* 15px padding inside */
+  text-align: center; 
+}
